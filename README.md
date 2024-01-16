@@ -61,6 +61,10 @@
 
 ### Division Algorithms For This Project
 
+Division Alogirthms can be categorized into:
+1. Division of unsigned integers
+2. Division of polynomials
+
 <img src="./figures/Division Algorithms Diagram.png" alt="Division Algorithms">
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
@@ -68,84 +72,175 @@
 
 ### Key Feature
 
-1. **Exscessively test each Division Algorithm with random arrays of different sizes from 10 to 1000000.**
+1. **Excessively test each Division Algorithm with the number of digits starting from 0 and going up to 2,097,153.**
+2. **Excessively test each Polynomial Division Algorithm with the degree of the polynomial starting from 5,000 and going up to 300,002.**
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ### Built With
 
-[![C++][C++]][C++-url]
-[![VisualStudio][VisualStudio]][VisualStudio-url]
-[![Excel][Excel]][Excel-url]
+[![Python][Python]][Python-url]
+[![JupyterNotebook][JupyterNotebook]][JupyterNotebook-url]
+[![Anaconda][Anaconda]][Anaconda-url]
+[![Pandas][Pandas]][Pandas-url]
+[![Matplotlib][Matplotlib]][Matplotlib-url]
 [![Git][Git]][Git-url]
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## Getting Started
 
-**To get a local copy of this project up and running locally follow these simple example steps:**
+**To get a local copy of the Revolutionizing the Division Operation project up and running locally follow these simple example steps:**
 
 ### Prerequisites
 
-1. Please make sure you have Visual Studio or Visual Studio Code with the C/C++ extension installed. You can download Visual Studio [here](https://visualstudio.microsoft.com/downloads/). You can download Visual Studio Code [here](https://code.visualstudio.com/download).
+**NOTE:** How to check if Python is installed and what is its version
 
-NOTE: You can use whatever code editor that you want. This project was created and tested with Visual Studio.
+```sh
+  python --version
+```
 
-### Installation
+**NOTE:** How to check if Git is installed and what is its version
 
-#### SetUp
+```sh
+  git -v
+```
 
-1. Navigate to the directory where you want to clone/run/save the application
+1. Please make sure you have pyenv installed and use Python3 version 3.11.0:
+
+   - You can use pyenv to switch between different Python versions:
+     - Windows: [https://www.youtube.com/watch?v=HTx18uyyHw8](https://github.com/pyenv-win/pyenv-win)
+     - Mac: [https://www.youtube.com/watch?v=31WU0Dhw4sk](https://github.com/pyenv/pyenv)
+     - Linux: [https://www.youtube.com/watch?v=1Zgo8M9yUtM](https://github.com/pyenv/pyenv)
+
+2. Please make sure you have git installed
+
+   - Windows: [https://git-scm.com/download/win](https://git-scm.com/download/win)
+   - Mac: [https://git-scm.com/download/mac](https://git-scm.com/download/mac)
+   - Linux: [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
+
+3. Please look at the [setup](https://github.com/GeorgiosIoannouCoder/tessa/tree/main/setup) folder found in this project to find the directions specific to your operating system. The general instructions can also be found below.
+
+### Setup
+
+1. Navigate to the directory where you want to clone/run/save the application:
+
+   ```sh
+   cd your_selected_directory
+   ```
+
+2. Clone this repository:
+
+   ```sh
+   git clone https://github.com/GeorgiosIoannouCoder/division-algorithms.git
+   ```
+
+3. Navigate to the realesrgan git repository:
+
+   ```sh
+   cd division-algorithms
+   ```
+
+4. Use Python3 3.11.0 version in the cloned repository folder:
+
+   ```sh
+   pyenv local 3.11.0
+   ```
+
+5. Create virtual environment in the cloned repository folder:
+
+   ```sh
+   python -m venv .division-algorithms-venv
+   ```
+
+6. Activate the virtual environment (Windows OR Mac/Linux):
+
+   1. Windows
+
+   ```sh
+   .\.division-algorithms-venv\Scripts\activate
+   ```
+
+   2. Mac/Linux
+
+   ```sh
+   source .division-algorithms-venv/bin/activate
+   ```
+
+7. Install the dependencies listed in the requirements.txt file:
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+8. Install ipykernel:
+
+   ```sh
+   pip install ipykernel
+   ```
+
+9. Install Jupyter Notebook:
+
+   ```sh
+   pip install jupyter notebook
+   ```
+
+10. Add the kernel of the virtual environment in the Jupyter Notebook:
 
     ```sh
-    cd your_selected_directory
+    ipython kernel install --user --name=.division-algorithms-venv
     ```
 
-2. Clone this repository
+11. Run the Jupyter Notebook:
 
-   ```sh
-   git clone https://github.com/GeorgiosIoannouCoder/sorting-algorithms.git
-   ```
+    ```sh
+    jupyter notebook
+    ```
 
-3. Navigate to the sorting-algorithms git repository
+12. Select the .division-algorithms-venv kernel to run the Jupyter Notebook.
 
-   ```sh
-   cd sorting-algorithms
-   ```
+13. To Run The [Notebook](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/code/Ioannou_Georgios_Code.ipynb) (4 Options):
+       1. Steps above and also [here]()
+       2. Use [Google Colaboratory](https://colab.research.google.com/)
+       3. Use [Jupyter Notebboks Extension for VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+       4. Use [Anaconda](https://www.anaconda.com/)
+          1. Download and install [Anaconda](https://www.anaconda.com/download)
+          2. Launch a jupyter notebook:
+              1. MacOS users, open up terminal and type in `jupyter notebook`
+              2. Window users, open up your Anaconda Power Shell, and type in `jupyter notebook`
 
-4. Open your code editor.
-
-   ```sh
-   code .
-   ```
-
-5. Run the .cpp file [here](https://github.com/GeorgiosIoannouCoder/sorting-algorithms/blob/main/Ioannou_Sorting_Algorithms.cpp).
-   
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## Code
 
-The main code file can be found [here](https://github.com/GeorgiosIoannouCoder/sorting-algorithms/blob/main/Ioannou_Sorting_Algorithms.cpp).
-
-<p align="right"><a href="#readme-top">Back to top</a></p>
-
-## Output
-
-The code of this project produces an output similiar to this:
-
-<img src="Table_1.png" alt="Logo">
+The full project code with the output can be found [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/code/Ioannou_Georgios_Code.ipynb).
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## Report
 
-The report of this project is located [here](https://github.com/GeorgiosIoannouCoder/sorting-algorithms/blob/main/Ioannou_Report.pdf). The tables and graph found inside the Report are loacted [here](https://github.com/GeorgiosIoannouCoder/sorting-algorithms/blob/main/Tables.xlsx).
+The report of this project with a comprehensive exaplanation of all the Division Algorithms is located [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Report.pdf). The figures found inside the Report are located [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/tree/main/Figures) and [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Appendix.pdf).
+
+## Slides
+
+The slides of this project are located [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/slides/Ioannou_Georgios_Slides.pdf).
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
-## Analysis
+## Analysis and Conclusions
 
-As I stated in my hypothesis in the [Report](https://github.com/GeorgiosIoannouCoder/sorting-algorithms/blob/main/Ioannou_Report.pdf) and by studying Table 3 and Figure 1, the **slowest Sorting Algorithm is Insertion Sort** and the **fastest Sorting Algorithm is LSD Radix Sort** among these six Algorithms. I was also correct that Quick Sort beats Heap Sort which beats Merge Sort. **However, Randomized Quick Sort (picking random pivot) is not faster than Quick Sort (picking the last element as the pivot)**. In fact, Randomized Quick Sort is sometimes slower than Heap Sort such as in the case when the input size is N=1000000. However, as the table shows, **Insertion Sort even though it is a quadratic Sorting Algorithm it is faster than Merge Sort, Randomized Quick Sort, and LSD Radix Sort for small array sizes and nearly sorted arrays**. Insertion Sort starts to be slow when the input size N gets larger.
+- Number of atoms in the universe = 10^78 to 10^82
+- Newton Raphson division algorithm = 2,097,153 digits (able to carry the most complex tasks)
+- Polynomial extended synthetic division algorithm = 300,002 nd degree polynomials
+- Newton Raphson division algorithm is the fastest and faster than Python’s built in functions
+- None of the division algorithms is considered as the best
+- There is a trade off in choosing what division algorithm to use and it depends on the task needed to be done
+
+From this [Report](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Report.pdf) and based on Table A5 and Graph A5, we concluded that the **fastest division algorithm for large-scale complex tasks is the Newton Raphson division algorithm.** However, it is also expected that the Goldschmidt division algorithm and the accurate quotient approximations division algorithm will also be fast. T**he Newton Raphson division algorithm is so fast that the Python programming language may want to override its integer division algorithm with this algorithm.** For smaller scale and simpler tasks, the long division algorithm can also be used.
+
+**For polynomial division it is better to implement the polynomial extended synthetic division algorithm rather than the polynomial long division algorithm because it is faster, simpler, and uses fewer resources.** The Python programming language may also consider in overriding its polydiv function with the polynomial extended synthetic division algorithm because it solves the issue of memory.
+
+Below are the Figures found inside the [Report](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Report.pdf) and [Slides](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/slides/Ioannou_Georgios_Slides.pdf).
 
 <img src="Table_1_excel.png" alt="Table 1">
 
@@ -231,14 +326,14 @@ Project Link: [https://github.com/GeorgiosIoannouCoder/sorting-algorithms](https
 [github-shield]: https://img.shields.io/badge/-GitHub-black.svg?style=for-the-badge&logo=github&colorB=000
 [github-url]: https://github.com/GeorgiosIoannouCoder/
 
-[C++]: https://img.shields.io/badge/c++-d5e4f3?style=for-the-badge&logo=cplusplus&logoColor=044f88
-[C++-url]: https://cplusplus.com/
+[Python]: https://img.shields.io/badge/python-FFDE57?style=for-the-badge&logo=python&logoColor=4584B6
+[Python-url]: https://www.python.org/
 
-[VisualStudio]: https://img.shields.io/badge/visual%20studio-5d2b90?style=for-the-badge&logo=visualstudio&logoColor=ffffff
-[VisualStudio-url]: https://visualstudio.microsoft.com/
+[Pandas]: https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
+[Pandas-url]: https://pandas.pydata.org/
 
-[Excel]: https://img.shields.io/badge/microsoft%20excel-1d6f42?style=for-the-badge&logo=microsoft
-[Excel-url]: https://www.microsoft.com/en-us/microsoft-365
+[Matplotlib]: https://img.shields.io/badge/matplotlib-3761a3?style=for-the-badge&logo=matplotlib&logoColor=white
+[Matplotlib-url]: https://matplotlib.org/
 
 [Git]: https://img.shields.io/badge/git-000000?style=for-the-badge&logo=git&logoColor=orange
 [Git-url]: https://git-scm.com/
