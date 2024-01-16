@@ -240,7 +240,7 @@ From this [Report](https://github.com/GeorgiosIoannouCoder/division-algorithms/b
 
 **For polynomial division it is better to implement the polynomial extended synthetic division algorithm rather than the polynomial long division algorithm because it is faster, simpler, and uses fewer resources.** The Python programming language may also consider in overriding its polydiv function with the polynomial extended synthetic division algorithm because it solves the issue of memory.
 
-Below are the Figures found inside the [Report](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Report.pdf) and [Slides](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/slides/Ioannou_Georgios_Slides.pdf).
+Below are the Figures found inside the [Appendix](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Appendix.pdf) and [Slides](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/slides/Ioannou_Georgios_Slides.pdf).
 
 <img src="Table_1_excel.png" alt="Table 1">
 
