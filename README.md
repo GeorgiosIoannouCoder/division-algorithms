@@ -245,7 +245,7 @@ From this [Report](https://github.com/GeorgiosIoannouCoder/division-algorithms/b
 
 Below are the Figures found inside the [Appendix](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Appendix.pdf) and [Slides](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/slides/Ioannou_Georgios_Slides.pdf).
 
-**WE CAN CLEARLY SEE FROM THE BELOW FIGURES THAT [THIS PROJECT'S IMPLEMENTATION OF NEWTON RAPHSON DIVISION ALGORITHM](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/figures/Newton_Raphson_Division_Algorithm/Newton_Raphson_Division_Algorithm_Code.png) BEATS PYTHON'S DIVISION ALGORITHM.**
+- **WE CAN CLEARLY SEE FROM THE BELOW FIGURES THAT [THIS PROJECT'S IMPLEMENTATION OF NEWTON RAPHSON DIVISION ALGORITHM](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/figures/Newton_Raphson_Division_Algorithm/Newton_Raphson_Division_Algorithm_Code.png) BEATS PYTHON'S DIVISION ALGORITHM.**
 
 ## UNSIGNED INTEGERS
 
