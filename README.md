@@ -18,12 +18,12 @@
   <p align="center">
     Division is the most time-consuming, resource expensive, and complex arithmetic operation. Hardware and software support for floating-point arithmetic is a must in modern central processor units. Even though division is used the least compared to addition and multiplication, it is becoming increasingly important in modern complex applications. The performance of such applications is affected and limited by the algorithms used for division. This project and <a href="https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Report.pdf">Report</a> study some of the most used division algorithms such as <b>long division, restoring, non-restoring, SRT, Newton-Raphson, Goldschmidt, accurate quotient approximations, polynomial long division, and polynomial extended synthetic division</b>. <b>The <a href="https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Report.pdf">Report</a> continues by comparing the fastest division algorithm with Python’s built-in integer division, divmod function, and polydiv function</b>. Finally, the <a href="https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Report.pdf">Report</a> concludes that the <b>Newton-Raphson division algorithm is the fastest for integers, and the polynomial extended synthetic division algorithm is the fastest for polynomials.</b> Moreover, the <a href="https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Report.pdf">Report</a> illustrates that <b>Newton-Raphson division algorithm and polynomial extended synthetic division algorithm are faster and more efficient than Python’s built-in algorithms</b>.
     <br />
-    <a href="https://github.com/GeorgiosIoannouCoder/sorting-algorithms"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/GeorgiosIoannouCoder/division-algorithms"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/GeorgiosIoannouCoder/sorting-algorithms/issues">Report Bug</a>
+    <a href="https://github.com/GeorgiosIoannouCoder/division-algorithms/issues">Report Bug</a>
     ·
-    <a href="https://github.com/GeorgiosIoannouCoder/sorting-algorithms/issues">Request Feature</a>
+    <a href="https://github.com/GeorgiosIoannouCoder/division-algorithms/issues">Request Feature</a>
   </p>
 </div>
 
@@ -33,7 +33,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#sorting-algorithms">Sorting Algorithms</a></li>
+        <li><a href="#division-algorithms-for-this-project">Division Algorithms For This Project</a></li>
         <li><a href="#key-feature">Key Feature</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -42,13 +42,13 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup">Setup</a></li>
       </ul>
     </li>
     <li><a href="#code">Code</a></li>
-    <li><a href="#output">Output</a></li>
     <li><a href="#report">Report</a></li>
-    <li><a href="#analysis">Analysis</a></li>
+    <li><a href="#slides">Slides</a></li>
+    <li><a href="#analysis-and-conclusions">Analysis and Conclusions</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -65,7 +65,7 @@ Division Alogirthms can be categorized into:
 **1. Division of unsigned integers**
 **2. Division of polynomials**
 
-<img src="./figures/Division Algorithms Diagram.png" alt="Division Algorithms">
+<img src="./figures/Division_Algorithms_Diagram.png" alt="Division Algorithms">
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -242,6 +242,8 @@ From this [Report](https://github.com/GeorgiosIoannouCoder/division-algorithms/b
 
 Below are the Figures found inside the [Appendix](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Appendix.pdf) and [Slides](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/slides/Ioannou_Georgios_Slides.pdf).
 
+## UNSIGNED INTEGERS
+
 <img src="./figures/README/naive_division_algorithm.png" alt="Naive Division Algorithm">
 
 <img src="./figures/README/long_division_algorithm.png" alt="Long Division Algorithm">
@@ -255,6 +257,8 @@ Below are the Figures found inside the [Appendix](https://github.com/GeorgiosIoa
 <img src="./figures/README/python_divmod_function.png" alt="Python's divmod Function">
 
 <img src="./figures/README/python_integer_division.png" alt="Python's Integer Division">
+
+## POLYNOMIALS
 
 <img src="./figures/README/polynomial_long_division_algorithm.png" alt="Polynomial Long Division Algorithm">
 
@@ -279,7 +283,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/GeorgiosIoannouCoder/sorting-algorithms/blob/master/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/master/LICENSE) for more information.
 
 MIT License
 
@@ -311,24 +315,24 @@ Georgios Ioannou - [@LinkedIn](https://linkedin.com/in/georgiosioannoucoder)
 
 Georgios Ioannou - [@georgiosioannoucoder](https://georgiosioannoucoder.github.io/) - Please contact me via the form in my portfolio.
 
-Project Link: [https://github.com/GeorgiosIoannouCoder/sorting-algorithms](https://github.com/GeorgiosIoannouCoder/sorting-algorithms)
+Project Link: [https://github.com/GeorgiosIoannouCoder/division-algorithms](https://github.com/GeorgiosIoannouCoder/division-algorithms)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/GeorgiosIoannouCoder/sorting-algorithms.svg?style=for-the-badge
-[contributors-url]: https://github.com/GeorgiosIoannouCoder/sorting-algorithms/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/GeorgiosIoannouCoder/division-algorithms.svg?style=for-the-badge
+[contributors-url]: https://github.com/GeorgiosIoannouCoder/division-algorithms/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/GeorgiosIoannouCoder/sorting-algorithms.svg?style=for-the-badge
-[forks-url]: https://github.com/GeorgiosIoannouCoder/sorting-algorithms/network/members
+[forks-shield]: https://img.shields.io/github/forks/GeorgiosIoannouCoder/division-algorithms.svg?style=for-the-badge
+[forks-url]: https://github.com/GeorgiosIoannouCoder/division-algorithms/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/GeorgiosIoannouCoder/sorting-algorithms.svg?style=for-the-badge
-[stars-url]: https://github.com/GeorgiosIoannouCoder/sorting-algorithms/stargazers
+[stars-shield]: https://img.shields.io/github/stars/GeorgiosIoannouCoder/division-algorithms.svg?style=for-the-badge
+[stars-url]: https://github.com/GeorgiosIoannouCoder/division-algorithms/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/GeorgiosIoannouCoder/sorting-algorithms.svg?style=for-the-badge
-[issues-url]: https://github.com/GeorgiosIoannouCoder/sorting-algorithms/issues
+[issues-shield]: https://img.shields.io/github/issues/GeorgiosIoannouCoder/division-algorithms.svg?style=for-the-badge
+[issues-url]: https://github.com/GeorgiosIoannouCoder/division-algorithms/issues
 
-[license-shield]: https://img.shields.io/github/license/GeorgiosIoannouCoder/sorting-algorithms.svg?style=for-the-badge
-[license-url]: https://github.com/GeorgiosIoannouCoder/sorting-algorithms/blob/master/LICENSE
+[license-shield]: https://img.shields.io/github/license/GeorgiosIoannouCoder/division-algorithms.svg?style=for-the-badge
+[license-url]: https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/master/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0077B5
 [linkedin-url]: https://linkedin.com/in/georgiosioannoucoder
@@ -338,6 +342,12 @@ Project Link: [https://github.com/GeorgiosIoannouCoder/sorting-algorithms](https
 
 [Python]: https://img.shields.io/badge/python-FFDE57?style=for-the-badge&logo=python&logoColor=4584B6
 [Python-url]: https://www.python.org/
+
+[JupyterNotebook]: https://img.shields.io/badge/jupyter%20notebook-808080?style=for-the-badge&logo=jupyter&logoColor=
+[JupyterNotebook-url]: https://jupyter.org/
+
+[Anaconda]: https://img.shields.io/badge/anaconda-000000?style=for-the-badge&logo=anaconda&logoColor=3eb049
+[Anaconda-url]: https://www.anaconda.com/
 
 [Pandas]: https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
 [Pandas-url]: https://pandas.pydata.org/
