@@ -222,7 +222,7 @@ The full project code with the output can be found [here](https://github.com/Geo
 
 ## Report
 
-The report of this project with a comprehensive exaplanation of all the Division Algorithms is located [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Report.pdf). The figures found inside the Report are located [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/tree/main/Figures) and [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Appendix.pdf).
+The report of this project with a comprehensive explanation of all the Division Algorithms is located [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Report.pdf). The figures found inside the Report are located [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/tree/main/figures) and [here](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Appendix.pdf).
 
 ## Slides
 
