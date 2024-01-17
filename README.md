@@ -34,7 +34,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#division-algorithms-for-this-project">Division Algorithms For This Project</a></li>
-        <li><a href="#key-feature">Key Feature</a></li>
+        <li><a href="#key-features">Key Features</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -62,7 +62,9 @@
 ### Division Algorithms For This Project
 
 Division Alogirthms can be categorized into:
+
 **1. Division of unsigned integers**
+
 **2. Division of polynomials**
 
 <img src="./figures/Division_Algorithms_Diagram.png" alt="Division Algorithms">
@@ -70,10 +72,11 @@ Division Alogirthms can be categorized into:
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 
-### Key Feature
+### Key Features
 
 1. **Excessively test each Division Algorithm with the number of digits starting from 0 and going up to 2,097,153.**
 2. **Excessively test each Polynomial Division Algorithm with the degree of the polynomial starting from 5,000 and going up to 300,002.**
+3. **A new unique way of implementing [Newton Raphson Division Alforithm](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/figures/Newton_Raphson_Division_Algorithm/Newton_Raphson_Division_Algorithm_Code.png).**
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -241,6 +244,8 @@ From this [Report](https://github.com/GeorgiosIoannouCoder/division-algorithms/b
 **For polynomial division it is better to implement the polynomial extended synthetic division algorithm rather than the polynomial long division algorithm because it is faster, simpler, and uses fewer resources.** The Python programming language may also consider in overriding its polydiv function with the polynomial extended synthetic division algorithm because it solves the issue of memory.
 
 Below are the Figures found inside the [Appendix](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Appendix.pdf) and [Slides](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/slides/Ioannou_Georgios_Slides.pdf).
+
+**WE CAN CLEARLY SEE THAT [THIS PROJECT'S IMPLEMENTATION OF NEWTON RAPHSON DIVISION ALGORITHM](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/figures/Newton_Raphson_Division_Algorithm/Newton_Raphson_Division_Algorithm_Code.png) BEATS PYTHON'S DIVISION ALGORITHM.**
 
 ## UNSIGNED INTEGERS
 
