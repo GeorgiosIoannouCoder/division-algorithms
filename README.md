@@ -62,8 +62,8 @@
 ### Division Algorithms For This Project
 
 Division Alogirthms can be categorized into:
-1. Division of unsigned integers
-2. Division of polynomials
+**1. Division of unsigned integers**
+**2. Division of polynomials**
 
 <img src="./figures/Division Algorithms Diagram.png" alt="Division Algorithms">
 
@@ -242,13 +242,23 @@ From this [Report](https://github.com/GeorgiosIoannouCoder/division-algorithms/b
 
 Below are the Figures found inside the [Appendix](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Appendix.pdf) and [Slides](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/slides/Ioannou_Georgios_Slides.pdf).
 
-<img src="Table_1_excel.png" alt="Table 1">
+<img src="./figures/README/naive_division_algorithm.png" alt="Naive Division Algorithm">
 
-<img src="Table_2_excel.png" alt="Table 2">
+<img src="./figures/README/long_division_algorithm.png" alt="Long Division Algorithm">
 
-<img src="Table_3_excel.png" alt="Table 3">
+<img src="./figures/README/restoring_division_algorithm.png" alt="Restoring Division Algorithm">
 
-<img src="time_vs_input.png" alt="Time versus input">
+<img src="./figures/README/non_restoring_division_algorithm.png" alt="Non-Restoring Division Algorithm">
+
+<img src="./figures/README/newton_raphson_division_algorithm.png" alt="Newton Raphson Division Algorithm">
+
+<img src="./figures/README/python_divmod_function.png" alt="Python's divmod Function">
+
+<img src="./figures/README/python_integer_division.png" alt="Python's Integer Division">
+
+<img src="./figures/README/polynomial_long_division_algorithm.png" alt="Polynomial Long Division Algorithm">
+
+<img src="./figures/README/polynomial_extended_synthetic_division_algorithm.png" alt="Polynomial Extended Synthetic Division Algorithm">
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
