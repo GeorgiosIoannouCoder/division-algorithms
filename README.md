@@ -76,7 +76,7 @@ Division Alogirthms can be categorized into:
 
 1. **Excessively test each Division Algorithm with the number of digits starting from 0 and going up to 2,097,153.**
 2. **Excessively test each Polynomial Division Algorithm with the degree of the polynomial starting from 5,000 and going up to 300,002.**
-3. **A new unique way of implementing [Newton Raphson Division Alforithm](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/figures/Newton_Raphson_Division_Algorithm/Newton_Raphson_Division_Algorithm_Code.png).**
+3. **A new unique way of implementing [Newton Raphson Division Algorithm](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/figures/Newton_Raphson_Division_Algorithm/Newton_Raphson_Division_Algorithm_Code.png).**
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -245,7 +245,7 @@ From this [Report](https://github.com/GeorgiosIoannouCoder/division-algorithms/b
 
 Below are the Figures found inside the [Appendix](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/report/Ioannou_Georgios_Appendix.pdf) and [Slides](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/slides/Ioannou_Georgios_Slides.pdf).
 
-**WE CAN CLEARLY SEE THAT [THIS PROJECT'S IMPLEMENTATION OF NEWTON RAPHSON DIVISION ALGORITHM](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/figures/Newton_Raphson_Division_Algorithm/Newton_Raphson_Division_Algorithm_Code.png) BEATS PYTHON'S DIVISION ALGORITHM.**
+**WE CAN CLEARLY SEE FROM THE BELOW FIGURES THAT [THIS PROJECT'S IMPLEMENTATION OF NEWTON RAPHSON DIVISION ALGORITHM](https://github.com/GeorgiosIoannouCoder/division-algorithms/blob/main/figures/Newton_Raphson_Division_Algorithm/Newton_Raphson_Division_Algorithm_Code.png) BEATS PYTHON'S DIVISION ALGORITHM.**
 
 ## UNSIGNED INTEGERS
 
