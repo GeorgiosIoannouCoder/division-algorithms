@@ -122,7 +122,7 @@ Division Alogirthms can be categorized into:
    - Mac: [https://git-scm.com/download/mac](https://git-scm.com/download/mac)
    - Linux: [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
 
-3. Please look at the [setup](https://github.com/GeorgiosIoannouCoder/tessa/tree/main/setup) folder found in this project to find the directions specific to your operating system. The general instructions can also be found below.
+3. Please look at the [setup](https://github.com/GeorgiosIoannouCoder/division-algorithms/tree/main/setup) folder found in this project to find the directions specific to your operating system. The general instructions can also be found below.
 
 ### Setup
 
@@ -232,7 +232,7 @@ The slides of this project are located [here](https://github.com/GeorgiosIoannou
 
 ## Analysis and Conclusions
 
-- Number of atoms in the universe = 10^78 to 10^82
+- Number of atoms in the universe = 10<sup>78</sup> to 10<sup>82</sup>
 - Newton Raphson division algorithm = 2,097,153 digits (able to carry the most complex tasks)
 - Polynomial extended synthetic division algorithm = 300,002 nd degree polynomials
 - Newton Raphson division algorithm is the fastest and faster than Python’s built in functions
